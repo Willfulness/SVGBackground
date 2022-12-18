@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+   <filter id="filter">
+     
+<feTurbulence type="turbulence" baseFrequency="0.0018 0.005" seed="12" numOctaves="3"/>
+         
+
+           <feColorMatrix 
+values="0.1  0 0 0 0
+        0.1  0 0 0 0
+        0.77 0 0 0 0
+        0    0 0 2 0.3"/>
+
+
+
+        <feComponentTransfer>
+            <feFuncR type="table" tableValues="0 .02 .03 .03 .09 .12 .27 .91 .3 .03 0.4 1.0"/>
+            <feFuncG type="table" tableValues=".01 .09 .16 .18 .38 .48 .54 .73 .33 .09 .4 .91"/>
+            <feFuncB type="table" tableValues=".03 .17 .3 .25 .37 .42 .42 .6 .17 .01 0.4 1"/>
+        </feComponentTransfer>
+
+<feConvolveMatrix 
+ order="3" 
+ kernelMatrix=" 
+    1  -1  1
+   -1 -.1 -1
+    1  -1  .1 
+ "/>
+
+<feGaussianBlur stdDeviation="0.5" />
+<feColorMatrix type="saturate" result="A"/>
+
+  </filter>
+
+    <rect width="100%" height="100%" filter="url(#filter)"/>
+</svg>
