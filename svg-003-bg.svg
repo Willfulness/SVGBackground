@@ -4,11 +4,11 @@
 <style>	
 :root {
   --bgColor:hsla(214, 63%, 53%, 1);
-  --bgColor:hsla(244, 42%, 62%, 1);
   --bgColor:hsla(218, 52%, 52%, 1);
   --bgColor: hsla(55, 23%, 87%, 1);
   --bgColor: hsla(48, 93%, 93%, 1);
   --bgColor: hsla(211, 81%, 58%, 1);
+  --bgColor:hsla(244, 42%, 62%, 1);	
 }
 </style>	 
 <filter id="filter">
