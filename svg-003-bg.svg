@@ -4,8 +4,7 @@
 ::root{	 
 --lcolor: #3c4e86;       
 	 }
-    </style>	
-	
+ </style>	
 <filter id="filter">
 	<feTurbulence type="turbulence" baseFrequency="0.015 0.108" numOctaves="5" seed="7" stitchTiles="noStitch"/>
 	<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="#3c4e86">
