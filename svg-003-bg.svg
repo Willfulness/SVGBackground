@@ -2,7 +2,7 @@
 <title>Blue wood</title>
 
 <style>	
-::root {
+:root {
 	--lighting-color: #f54949;
 }
 </style>	 
