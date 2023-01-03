@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg">
     <filter id="filter" color-interpolation-filters="linearRGB">
-	<feTurbulence type="fractalNoise" baseFrequency="0.0003 0.851" numOctaves="2" seed="3" stitchTiles="noStitch" result="turbulence"/>
-	<feGaussianBlur stdDeviation="1 1" in="turbulence" edgeMode="none" result="blur2"/>
-	<feDiffuseLighting surfaceScale="5.4" diffuseConstant="0.75" lighting-color="#569bfb"  in="blur2" result="diffuseLighting1">
+	<feTurbulence type="fractalNoise" baseFrequency="0.0003 0.851" numOctaves="2" seed="3" stitchTiles="noStitch"/>
+	<feGaussianBlur stdDeviation="1 1" in="turbulence" edgeMode="none">
+	<feDiffuseLighting surfaceScale="5.4" diffuseConstant="0.75" lighting-color="#569bfb">
     		<feDistantLight azimuth="16" elevation="56"/>
   	</feDiffuseLighting>
-	<feMorphology operator="erode" radius="4 3"  in="diffuseLighting1" result="morphology"/>
+	<feMorphology operator="erode" radius="4 3" />
 </filter>
      <rect width="100%" height="100%" filter="url(#filter)"/>
 </svg>
