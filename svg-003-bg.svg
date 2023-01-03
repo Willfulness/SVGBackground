@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg">
 <style>	
 <![CDATA[
-
 :root[color.array] {
   --bgColor:hsla(214, 63%, 53%, 1);
   --bgColor:hsla(218, 52%, 52%, 1);
@@ -14,6 +13,13 @@
 :root {
   --bgColor:hsla(224, 34%, 52%, 1);  
 }
+svg {
+  --bgColor:hsla(224, 34%, 52%, 1);  
+}
+html {
+  --bgColor:hsla(224, 34%, 52%, 1);  
+}
+
 ]]>	
 </style>	 
 <filter id="filter">
@@ -24,5 +30,5 @@
 </filter>
 	
      <rect width="100%" height="100%" filter="url(#filter)"/>
-<title>Blue wood</title>	
+<title>Blue wood</title>
 </svg>
