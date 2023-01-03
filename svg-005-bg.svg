@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  
+<filter id="filter" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">
+	<feTurbulence type="turbulence" baseFrequency="0.011 0.004" numOctaves="2" seed="4" stitchTiles="stitch" x="0%" y="0%" width="100%" height="100%" result="turbulence"/>
+	<feDiffuseLighting surfaceScale="5.6" diffuseConstant="0.75" lighting-color="#006aff" x="0%" y="0%" width="100%" height="100%" in="turbulence" result="diffuseLighting1">
+    		<feDistantLight azimuth="7" elevation="52"/>
+  	</feDiffuseLighting>
+	<feMorphology operator="erode" radius="4 3" x="0%" y="0%" width="100%" height="100%" in="diffuseLighting1" result="morphology"/>
+</filter>   
+  
+    <rect width="100%" height="100%" filter="url(#filter)"/>
+</svg>
+
