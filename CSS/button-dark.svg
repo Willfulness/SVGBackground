@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="/button-dark.css"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+  
+<title>Button hover</title>
+	<style>	
+<![CDATA[
+:root {
+  --bgColor:hsla(224, 34%, 52%, 1);  
+}
+]]>	
+</style>
+  
+<div class="container">
+    <div class="center">
+      <button class="hover-button">
+        <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+        </svg>
+        <span>HOME HOVER</span>
+      </button>
+    </div>
+  </div>  
+    <rect width="100%" height="100%" filter="url(#filter)"/>
+</svg>
