@@ -31,9 +31,19 @@ html {
 </style>	 
 <filter id="filter">
 	<feTurbulence type="turbulence" baseFrequency="0.015 0.108" numOctaves="5" seed="7" stitchTiles="noStitch"/>
-	<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="var(--bgColor, blue)">
-    		<feDistantLight azimuth="7" elevation="52"/>
-  	</feDiffuseLighting>
+<!--[if !IE]>
+<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="var(--bgColor, blue)">
+     <feDistantLight azimuth="7" elevation="52"/>
+ </feDiffuseLighting>
+<![endif]-->
+
+<!--[if IE]>
+<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="hsla(224, 34%, 52%, 1)">
+     <feDistantLight azimuth="7" elevation="52"/>
+ </feDiffuseLighting>
+<![endif]-->
+	
+	
 </filter>
 	
      <rect width="100%" height="100%" filter="url(#filter)"/>
