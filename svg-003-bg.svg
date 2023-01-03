@@ -2,12 +2,12 @@
 <title>Blue wood</title>
 	
  <defs>
-  <ref id="bgColor" param="color" default="blue"/>	 
+  <ref id="gcolor" param="color" default="blue"/>	 
  </defs>	
  <g>	
 <filter id="filter">
 	<feTurbulence type="turbulence" baseFrequency="0.015 0.108" numOctaves="5" seed="7" stitchTiles="noStitch"/>
-	<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="url(#bgColor)">
+	<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="url(#gcolor)">
     		<feDistantLight azimuth="7" elevation="52"/>
   	</feDiffuseLighting>
 </filter>
