@@ -11,7 +11,7 @@
   --bgColor: hsla(211, 81%, 58%, 1);
   --bgColor:hsla(244, 42%, 62%, 1);	
   --bgColor:hsla(224, 34%, 52%, 1);
-    --bgColor: hsla(48, 93%, 93%, 1);
+    --bgColor: hsla(60, 93%, 93%, 1);
 }
 ]]>	
 </style>	 
