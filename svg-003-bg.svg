@@ -27,18 +27,6 @@ html {
   --bgColor:hsla(224, 34%, 52%, 1);  
 }
 
-/* --- !IE ok
-<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="var(--bgColor, blue)">
-     <feDistantLight azimuth="7" elevation="52"/>
- </feDiffuseLighting>
-*/
-
-/* --- IE 11 ok
-<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="#057bd0">
-     <feDistantLight azimuth="7" elevation="52"/>
- </feDiffuseLighting>
-*/
-
 ]]>	
 </style>	 
 <filter id="filter">
