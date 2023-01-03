@@ -16,16 +16,6 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
 :root {
   --bgColor:hsla(224, 34%, 52%, 1);  
 }
-svg {
-  --bgColor:hsla(224, 34%, 52%, 1);  
-}
-html {
-  --bgColor:hsla(224, 34%, 52%, 1);  
-}
-
-.element {
-  --bgColor:hsla(224, 34%, 52%, 1);  
-}
 
 ]]>	
 </style>	 
