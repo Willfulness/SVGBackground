@@ -3,12 +3,12 @@
 
 <style>	
 :root {
-	--lighting-color: #f54949;
+	--bgColor:hsla(232, 63%, 53%, 1);
 }
 </style>	 
 <filter id="filter">
 	<feTurbulence type="turbulence" baseFrequency="0.015 0.108" numOctaves="5" seed="7" stitchTiles="noStitch"/>
-	<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="var(--lighting-color)">
+	<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="var(--bgColor)">
     		<feDistantLight azimuth="7" elevation="52"/>
   	</feDiffuseLighting>
 </filter>
