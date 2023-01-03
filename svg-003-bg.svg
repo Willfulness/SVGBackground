@@ -3,7 +3,7 @@
 
 <style>	
 :root {
-	--bgColor:hsla(232, 63%, 53%, 1);
+	--bgColor:hsla(214, 63%, 53%, 1);
 }
 </style>	 
 <filter id="filter">
