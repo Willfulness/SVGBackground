@@ -2,8 +2,8 @@
 <title>Blue wood</title>
 	
  <defs>
-    <ref id="bgColor" value="#3c4e86" />
-  </defs>	
+  <ref id="bgColor" param="color" default="#3c4e86"/>	 
+ </defs>	
 	
 <filter id="filter">
 	<feTurbulence type="turbulence" baseFrequency="0.015 0.108" numOctaves="5" seed="7" stitchTiles="noStitch"/>
