@@ -2,13 +2,13 @@
 <title>Blue wood</title>
 
 <style>	
-:root {
-	--red: #f54949;
+::root {
+	--lighting-color: #f54949;
 }
 </style>	 
 <filter id="filter">
 	<feTurbulence type="turbulence" baseFrequency="0.015 0.108" numOctaves="5" seed="7" stitchTiles="noStitch"/>
-	<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="var(--red)">
+	<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="var(--lighting-color)">
     		<feDistantLight azimuth="7" elevation="52"/>
   	</feDiffuseLighting>
 </filter>
