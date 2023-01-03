@@ -2,7 +2,7 @@
 <title>Blue wood</title>
 	
  <defs>
-  <ref id="bgColor" param="color" default="#3c4e86"/>	 
+  <ref id="bgColor" param="color" default="blue"/>	 
  </defs>	
  <g>	
 <filter id="filter">
