@@ -1,4 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg">
+ <style type="text/css">
+--lcolor: #3c4e86;       
+    </style>	
+	
 <filter id="filter">
 	<feTurbulence type="turbulence" baseFrequency="0.015 0.108" numOctaves="5" seed="7" stitchTiles="noStitch"/>
 	<feDiffuseLighting surfaceScale="5" diffuseConstant="0.75" lighting-color="#3c4e86">
