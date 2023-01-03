@@ -2,6 +2,7 @@
 <title>Blue wood</title>
 
 <style>	
+<![CDATA[	
 :root {
   --bgColor:hsla(214, 63%, 53%, 1);
   --bgColor:hsla(218, 52%, 52%, 1);
@@ -11,6 +12,7 @@
   --bgColor:hsla(244, 42%, 62%, 1);	
   --bgColor:hsla(224, 34%, 52%, 1);		
 }
+]]>	
 </style>	 
 <filter id="filter">
 	<feTurbulence type="turbulence" baseFrequency="0.015 0.108" numOctaves="5" seed="7" stitchTiles="noStitch"/>
