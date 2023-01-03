@@ -1,0 +1,24 @@
+<book>
+<chap number="1">
+<page number="1">
+Text for Chapter 1, Page 1
+</page>
+<page number="2">
+Text for Chapter 1, Page 2
+</page>
+<page number="3">
+Text for Chapter 1, Page 3
+</page>
+</chap>
+<chap number="2">
+<page number="1">
+Text for Chapter 2, Page 1
+</page>
+<page number="2">
+Text for Chapter 2, Page 2
+</page>
+<page number="3">
+Text for Chapter 2, Page 3
+</page>
+</chap>
+</book>
