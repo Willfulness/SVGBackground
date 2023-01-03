@@ -20,6 +20,10 @@ html {
   --bgColor:hsla(224, 34%, 52%, 1);  
 }
 
+.element {
+  --bgColor:hsla(224, 34%, 52%, 1);  
+}
+
 ]]>	
 </style>	 
 <filter id="filter">
