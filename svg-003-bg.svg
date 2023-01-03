@@ -2,10 +2,6 @@
 <style>	
 <![CDATA[
 
-:root {
-  --bgColor:hsla(224, 34%, 52%, 1);  
-}
-
 :root[color.array] {
   --bgColor:hsla(214, 63%, 53%, 1);
   --bgColor:hsla(218, 52%, 52%, 1);
@@ -15,6 +11,10 @@
   --bgColor:hsla(244, 42%, 62%, 1);	
   --bgColor: hsla(42, 73%, 83%, 1);
 }
+:root {
+  --bgColor:hsla(224, 34%, 52%, 1);  
+}
+
 
 ]]>	
 </style>	 
