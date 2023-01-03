@@ -1,6 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg">
+<title>Blue wood</title>	
  <style type="text/css">
+::root{	 
 --lcolor: #3c4e86;       
+	 }
     </style>	
 	
 <filter id="filter">
