@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg">
-<filter id="filter" color-interpolation-filters="linearRGB">
+<filter id="filter">
 	<feTurbulence type="fractalNoise" baseFrequency="0.194 0.186" numOctaves="2" seed="6" stitchTiles="noStitch" />
 	<feGaussianBlur stdDeviation="1 1" edgeMode="none" />
 	<feDiffuseLighting surfaceScale="5.6" diffuseConstant="0.75" lighting-color="#569bfb">
