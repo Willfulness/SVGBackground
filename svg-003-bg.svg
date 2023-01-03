@@ -5,7 +5,7 @@
   --bgColor:hsla(224, 34%, 52%, 1);  
 }
 
-element.color{
+element.array.color {
   --bgColor:hsla(214, 63%, 53%, 1);
   --bgColor:hsla(218, 52%, 52%, 1);
   --bgColor: hsla(55, 23%, 87%, 1);
