@@ -3,13 +3,6 @@
      xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns:ev="http://www.w3.org/2001/xml-events">
 <title>Blue wood</title>
-	<style>	
-<![CDATA[
-:root {
-  --bgColor:hsla(224, 34%, 52%, 1);  
-}
-]]>	
-</style>	 
 	
 <filter id="filter">
 	<feTurbulence type="turbulence" baseFrequency="0.015 0.108" numOctaves="5" seed="7" stitchTiles="noStitch"/>
