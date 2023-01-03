@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg">
 <title>Blue wood</title>
 	
- <object type="text/css">
-    <param name="bgColor" value="#3c4e86" />
-  </object>	
+ <defs>
+    <ref id="bgColor" value="#3c4e86" />
+  </defs>	
 	
 <filter id="filter">
 	<feTurbulence type="turbulence" baseFrequency="0.015 0.108" numOctaves="5" seed="7" stitchTiles="noStitch"/>
