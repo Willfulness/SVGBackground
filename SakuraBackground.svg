@@ -12,7 +12,7 @@
 <style>
  svg
 { width:  auto; height: auto;
-        opacity:0.32;
+        opacity:0.4;
 }
 /*  width:auto; height:auto;  */
 /*  предотвращают появление полос прокрутки */
