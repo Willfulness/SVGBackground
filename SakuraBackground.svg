@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg">
 <title>Sakura background</title>
     <filter id="A0">
-     <feTurbulence type="fractalNoise" baseFrequency=".8192 .0016"/>
+     <feTurbulence type="fractalNoise" baseFrequency=".89 .00016"/>
      <feColorMatrix values="
      .1 .2 .4  .1 .2
      -1 .2 .4  .4 .3
