@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+<title>Sakura background</title>
+    <filter id="A0">
+     <feTurbulence type="fractalNoise" baseFrequency=".32 .0016"/>
+     <feColorMatrix values="
+     .1 .2 .4  .1 .2
+     -1 .2 .4  .4 .3
+     .1 .2 .4  .4 .8
+     .1 .2 .4  .16 .32"/>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#A0)"/>
+</svg>
